@@ -1,0 +1,19 @@
+{
+  "name": "lettership-landing",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build",
+    "start": "serve ./dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "parcel": "^2.0.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}
